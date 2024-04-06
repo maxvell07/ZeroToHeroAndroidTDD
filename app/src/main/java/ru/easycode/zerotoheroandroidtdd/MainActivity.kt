@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         button= findViewById(R.id.changeButton)
         button.setOnClickListener {
             text.setText("I am an Android Developer!")
+
         }
     }
 }
