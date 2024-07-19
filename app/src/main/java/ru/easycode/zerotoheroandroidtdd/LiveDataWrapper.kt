@@ -2,8 +2,9 @@ package ru.easycode.zerotoheroandroidtdd
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import java.io.Serializable
 
-interface LiveDataWrapper {
+interface LiveDataWrapper:Serializable {
     fun update(value: UiState)
     fun liveData(): LiveData<UiState>
 
